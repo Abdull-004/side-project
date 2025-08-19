@@ -27,6 +27,7 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+        working-directory: ./client
 
       - name: Run tests
         run: pnpm test
